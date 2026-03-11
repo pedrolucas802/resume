@@ -1,72 +1,92 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en">
+
 <head>
-
-   <!--- Basic Page Needs
-   ================================================== -->
+   <!--- Basic Page Needs================================================== -->
+   
    <meta charset="utf-8">
-	<title>Pedro Barreto - Resume</title>
-	<meta name="description" content="Resume Site">
-	<meta name="author" content="Pedro Barreto">
+   <title>Pedro Barreto - Resume</title>
+   <meta name="description" content="Resume Site">
+   <meta name="author" content="Pedro Barreto">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <!-- Mobile Specific Metas ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
-    ================================================== -->
+   <!-- CSS ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
+   <style>
+      .button {
+         background: #2B6CB0 !important;
+         color: #ffffff !important;
+         border: 1px solid #2B6CB0 !important;
+         transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+         padding: 4px 12px !important;
+         font-size: 14px;
+      }
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
+      .button:hover,
+      .button:focus {
+         background: #1E4E8C !important;
+         border-color: #1E4E8C !important;
+         color: #ffffff !important;
+         transform: translateY(-1px);
+      }
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="pedroTransparent.png" >
+      .button i {
+         color: #ffffff !important;
+      }
+   </style>
+
+   <!-- Script ================================================== -->
+   <script src="js/modernizr.js"></script>
+
+   <!-- Favicons ================================================== -->
+   <link rel="shortcut icon" href="pedroTransparent.png">
 
 </head>
 
 <body>
 
-   <!-- Header
-   ================================================== -->
+   <!-- Header ================================================== -->
    <header id="home">
 
       <nav id="nav-wrap">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
+         </ul>
 
-      </nav> <!-- end #nav-wrap -->
+      </nav>
 
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Pedro L. Barreto</h1>
-		 
-          	 <h3><span>Jr. Full-Stack Developer</span> at the University of Fortaleza Tech Department, while I finish my bachelors in <span>Computer Science</span> (6thsemester). <a class="smoothscroll" href="#about"> Scroll Down</a></h3>
-            
-		 <hr />
+
+            <h3><span>Full-Stack Software Developer</span> with experience across <span>cybersecurity</span>,
+               <span>education</span>, and <span>financial systems</span>, currently growing into <span>computer
+                  vision</span> and <span>artificial intelligence</span>. <a class="smoothscroll" href="#about">Scroll
+                  Down</a>
+            </h3>
+
+            <hr />
             <ul class="social">
                <li><a href="mailto:plsb802@gmail.com"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/pedro-barreto-4b13541a8/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/pedro-barreto-4b13541a8/"><i class="fa fa-linkedin"></i></a>
+               </li>
                <li><a href="https://www.instagram.com/pedrolucasb8/"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://github.com/pedrolucas802"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCB7WueZ0OQFBQQejtLz2duQ"><i class="fa fa-youtube"></i></a></li>
+               <li><a href="https://github.com/pedrolucas802"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCB7WueZ0OQFBQQejtLz2duQ"><i class="fa fa-youtube"></i></a>
+               </li>
             </ul>
          </div>
       </div>
@@ -75,28 +95,54 @@
          <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
       </p>
 
-   </header> <!-- Header End -->
+   </header>
 
 
-   <!-- About Section
-   ================================================== -->
+   <!-- About Section ================================================== -->
    <section id="about">
 
       <div class="row">
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="images/Pedro/profile_pic.jpg" alt="" />
+            <img class="profile-pic" src="images/Pedro/profile_pic.jpg" alt="" />
 
          </div>
 
-         <div class="nine columns main-col">
+         <div class="nine columns mßain-col">
 
             <h2>About Me</h2>
 
             <p>
-                My name is Pedro Lucas Barreto, I was born in Brazil and grew up in the state of Florida where I was part of my High School’s  AFJROTC and found my passion for Computer Science at the CyberPatriot competitions and I.T. classes offered there.
-                I recently moved to Brazil to attend the University of Fortaleza (UNIFOR), where I’m currently a Junior. Since I’ve been here I have started giving English lessons at FourLangue and started interning at UNIFOR DTec where I have been able to learn a lot and was eventually hired to work Full-time in an internal project with Full-stack responsibilities using Spring boot, Quarkus, Angular, ThymeLeaf, jQuery and PL/SQL.
+               Full-stack software developer with experience building and maintaining applications across cybersecurity,
+               education, and financial administration sectors. My journey started in Florida, where living and studying
+               through middle school and high school gave me a strong bilingual foundation, cultural adaptability, and
+               an early international perspective that still shapes how I communicate and work today.
+            </p>
+
+            <div id="about-more" style="display: none;">
+               <p>
+                  While attending West Orange High School, I was part of the AFJROTC program, an experience that helped
+                  develop my discipline, leadership mindset, and sense of responsibility. It was also there that I
+                  became more serious about technology through the CyberPatriot program, which introduced me to
+                  cybersecurity and IT in a practical way, and later through advanced coursework in high school such as
+                  AP Computer Science Principles. Those experiences played an important role in moving me toward
+                  Computer Science as a long-term path.
+               </p>
+
+               <p>
+                  After moving to Brazil, I earned my Computer Science degree from the University of Fortaleza (UNIFOR)
+                  and built my career in full-stack software development, contributing to highly used enterprise systems
+                  with real operational impact. Throughout my professional experience, I have worked on platforms relied
+                  on by large numbers of users, and I currently contribute to an international enterprise project with
+                  presence across North America, South America, Europe, and Asia. Alongside my professional work, I
+                  continue to deepen my interest in computer vision and artificial intelligence through academic and
+                  personal projects.
+               </p>
+            </div>
+
+            <p>
+               <a href="#" id="about-toggle" class="button">Read More</a>
             </p>
 
             <div class="row">
@@ -105,41 +151,36 @@
 
                   <h2>Contact Details</h2>
                   <p class="address">
-						   <span>Pedro L. Barreto</span><br>
-<!--						   <span>1600 Amphitheatre Parkway<br>-->
-<!--						         Mountain View, CA 94043 US-->
-                     </span>
-						   <span>(85)9981-93804</span><br>
-                      <span>github.com/pedrolucas802</span><br>
+                     <span>Pedro L. Barreto</span><br>
+                     <span>+55 (85) 99819-3804</span><br>
+                     <span><a href="https://github.com/pedrolucas802"
+                           target="_blank">github.com/pedrolucas802</a></span><br>
                      <span>plsb802@gmail.com</span>
-					   </p>
+                  </p>
 
                </div>
 
                <div class="columns download">
                   <p>
-                     <a href="https://drive.google.com/file/d/1K8Bk2VgoEKEq7fvyioKdmG6UQwVZywy-/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume(BR)</a>
-                      <a href="https://drive.google.com/file/d/1K8Bk2VgoEKEq7fvyioKdmG6UQwVZywy-/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume(EN)</a>
-
+                     <a href="mailto:plsb802@gmail.com" class="button"><i class="fa fa-envelope"></i>Email Me</a>
+                     <a href="https://github.com/pedrolucas802" target="_blank" class="button"><i
+                           class="fa fa-github"></i>View GitHub</a>
+                     <a href="./Resume 2026.1 - Pedro Barreto.pdf" class="button"
+                        download="Resume 2026.1 - Pedro Barreto.pdf"><i class="fa fa-download"></i>Download CV</a>
                   </p>
                </div>
 
-            </div> <!-- end row -->
+            </div>
 
-         </div> <!-- end .main-col -->
+         </div>
 
       </div>
 
-   </section> <!-- About Section End-->
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
+   </section>
+   <!-- Resume Section ================================================== -->
    <section id="resume">
 
-      <!-- Education
-      ----------------------------------------------- -->
+      <!-- Education ----------------------------------------------- -->
       <div class="row education">
 
          <div class="three columns header-col">
@@ -153,16 +194,17 @@
                <div class="twelve columns">
 
                   <h3>University of Fortaleza</h3>
-                  <p class="info">Bachelors in Computer Science <span>&bull;</span> <em class="date">June 2024</em></p>
+                  <p class="info">Bachelor's in Computer Science <span>&bull;</span> <em class="date">2020 - 2025</em>
+                  </p>
 
                   <p>
-                  Currently at the 6th semester of Computer Science at UNIFOR.
-                      <br> <span>GPA: 8.5</span>
+                     Graduated in Computer Science at the University of Fortaleza (UNIFOR), Brazil.
+                     <br> <span>GPA: 8.1</span>
                   </p>
 
                </div>
 
-            </div> <!-- item end -->
+            </div>
 
             <div class="row item">
 
@@ -172,22 +214,22 @@
                   <p class="info">Winter Garden, FL <span>&bull;</span> <em class="date">2016 - 2020</em></p>
 
                   <p>
-                      I´m a proud West Orange Warrior from the class of 2020! Where I was able to have great experiences including Group Commander at AFJROTC FL-802, National Honors Society member (Scholarship house) and Senator delegate at the 76th American Legion Florida Boys State.
-                      <br> <span>GPA: 3.9 (standard) & 4.5 (weighted) </span>
-                      <br> <span>SAT Scores: 540 (English) and 540 (Math) </span>
+                     Graduated from West Orange High School in Winter Garden, Florida, with strong academic performance
+                     and active participation in leadership and service organizations.
+                     <br> <span>GPA: 3.9 (standard) &amp; 4.5 (weighted)</span>
+                     <br> <span>Organizations: National Honor Society and AFJROTC FL-802 (4 years)</span>
                   </p>
 
                </div>
 
-            </div> <!-- item end -->
+            </div>
 
-         </div> <!-- main-col end -->
+         </div>
 
-      </div> <!-- End Education -->
+      </div>
 
 
-      <!-- Work
-      ----------------------------------------------- -->
+      <!-- Work  ----------------------------------------------- -->
       <div class="row work">
 
          <div class="three columns header-col">
@@ -200,16 +242,58 @@
 
                <div class="twelve columns">
 
-                  <h3>UNIFOR DTec</h3>
-                  <p class="info">Intern <span>&bull;</span> <em class="date">April 2022 - Present</em></p>
+                  <h3>Eldorado Research Institute</h3>
+                  <p class="info">Full-Stack Software Developer <span>&bull;</span> <em class="date">August 2025 -
+                        Present</em></p>
 
                   <p>
-			Currently working full-time as a Jr. full-stack software developer at the technology department of the University of Fortaleza which takes care of all the development and infrastructure of the university.
-		  </p>
+                     Contributing to the development of a corporate platform for international clients, with full-stack
+                     responsibilities across backend and frontend layers. Supporting the delivery of scalable,
+                     high-impact solutions currently deployed and used globally, with a strong focus on performance,
+                     reliability, and user experience.
+                  </p>
 
                </div>
 
-            </div> <!-- item end -->
+            </div>
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Network Secure</h3>
+                  <p class="info">Full-Stack Software Developer <span>&bull;</span> <em class="date">May 2024 - July
+                        2025</em></p>
+
+                  <p>
+                     Responsible for the development of Threat Intelligence and Vulnerability modules of the platform
+                     used by both analysts and clients, handling front-end and back-end responsibilities to deliver a
+                     comprehensive and user-friendly experience. Additionally, I managed a team of three developers
+                     using Scrum methodologies.
+                  </p>
+
+               </div>
+
+            </div>
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Fortaleza Tech Dept.</h3>
+                  <p class="info">Full-Stack Software Developer <span>&bull;</span> <em class="date">April 2022 - May
+                        2024</em></p>
+
+                  <p>
+                     Worked at the University of Fortaleza's technology department. I first contributed to SISPLAN, the
+                     university's budget planning system launched in July 2022. Later, I helped develop the university's
+                     financial administration system used by employees and students, delivering both front-end and
+                     back-end features across multiple modules.
+                  </p>
+
+               </div>
+
+            </div>
 
             <div class="row item">
 
@@ -219,23 +303,21 @@
                   <p class="info">Intern <span>&bull;</span> <em class="date">June 2021 - January 2022</em></p>
 
                   <p>
-
-                      This is a company that recently launched an app that has all kinds of stores and restaurants with great client support and analytics. I was able to help them improve their internal administration creating and implementing functional worksheets and the Pipefy platform. And later was responsible for client training of the platform and client support.
-
-
+                     Contributed to internal administration improvements by creating and implementing functional
+                     worksheets and Pipefy workflows. Later, I supported client onboarding, training, and customer
+                     support for the platform.
                   </p>
 
                </div>
 
-            </div> <!-- item end -->
+            </div>
 
-         </div> <!-- main-col end -->
+         </div>
 
-      </div> <!-- End Work -->
+      </div>
 
 
-      <!-- Skills
-      ----------------------------------------------- -->
+      <!-- Skills  ----------------------------------------------- -->
       <div class="row skill">
 
          <div class="three columns header-col">
@@ -244,371 +326,310 @@
 
          <div class="nine columns main-col">
 
-           <p>
-		I’m blessed to have found a passion for programming and Software Development. My current goal is to focus on the DEV-OPS skills and continue to pursue a career as Full-Stack Software engineer. I’m currently more advanced with Java Back-end Development and do most of my side-learning outside of work with pluralsight courses.
-	 </p>
+            <p>
+               Full-stack software developer focused on building reliable backend services, modern web applications, and
+               scalable enterprise solutions. My current experience is strongest in Java/Kotlin, Python, SQL, and
+               Angular-based development, while my next growth phase is centered on machine learning, computer vision,
+               and applied AI engineering.
+            </p>
 
-				<div class="bars">
+            <div class="bars">
 
-				 <ul class="skills">
-					  <li><span class="bar-expand photoshop"></span><em>Spring Boot (Java 8) &amp; Thymeleaf</em></li>
-					  <li><span class="bar-expand photoshop"></span><em>Quarkus (Java 17)</em></li>
-                  	<li><span class="bar-expand illustrator"></span><em>Angular (typescript)</em></li>
-				  <li><span class="bar-expand photoshop"></span><em>JavaScript/jQuery</em></li>
-				    <li><span class="bar-expand illustrator"></span><em>HTML/CSS</em></li>
-					<li><span class="bar-expand illustrator"></span><em>SQL / Oracle PL/SQL</em></li>
-					<li><span class="bar-expand illustrator"></span><em>Flutter</em></li>
-    				<li><span class="bar-expand wordpress"></span><em>Docker</em></li>
-                  <li><span class="bar-expand jquery"></span><em>Microsoft Office 365 Certified</em></li>
-	</ul>
+               <ul class="skills">
+                  <li><span class="bar-expand photoshop"></span><em>Backend Engineering: Java, Kotlin, Quarkus, REST
+                        APIs, Python</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>AI / ML: PyTorch, OpenCV, FastAPI, Streamlit,
+                        Computer Vision</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Frontend: Angular, Vue.js, Thymeleaf, jQuery,
+                        HTML, CSS, JavaScript</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Databases: Oracle, PostgreSQL, MySQL, SQL,
+                        PL/SQL</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Infrastructure: Docker, Nginx, Kafka,
+                        Microservices</em></li>
+                  <li><span class="bar-expand wordpress"></span><em>Practices: Scrum, Full-Stack Development, Enterprise
+                        Systems</em></li>
+                  <li><span class="bar-expand jquery"></span><em>English (Native/Fluent)</em></li>
+                  <li><span class="bar-expand jquery"></span><em>Portuguese (Native/Fluent)</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Spanish (Intermediate)</em></li>
+               </ul>
 
-				</div><!-- end skill-bars -->
+            </div>
 
-			</div> <!-- main-col end -->
+         </div>
 
-      </div> <!-- End skills -->
+      </div>
 
-   </section> <!-- Resume Section End-->
+   </section>
 
 
-   <!-- Portfolio Section
-   ================================================== -->
+   <!-- Portfolio Section ================================================== -->
    <section id="portfolio">
 
       <div class="row">
 
          <div class="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Portfolio Projects</h1>
+            <p style="text-align:center;max-width:760px;margin:0 auto 32px auto;color:#777;line-height:1.8;">
+               A selection of projects from my GitHub involving software engineering, data analysis, and computer
+               vision.
+            </p>
+            <div style="text-align:center;margin-bottom:40px;">
+               <a href="https://github.com/pedrolucas802" target="_blank" class="button"><i class="fa fa-github"></i>
+                  View All Projects on GitHub</a>
+            </div>
 
             <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+            <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
 
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/moneynote.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>MoneyNote</h5>
-                              <p>Mobile Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-06" title="">
-                            <img alt="" src="images/portfolio/weather.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Weather APP</h5>
-                                    <p>Mobile Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-03" title="">
-                            <img alt="" src="images/portfolio/colorPicker.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>ColorPicker</h5>
-                                    <p>Mobile Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
+               <!-- Crash Detection -->
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/banksystem.jpg">
+                     <a href="https://github.com/pedrolucas802/collision_monitor" target="_blank" rel="noopener noreferrer" class="external-project-link" onclick="window.open(this.href, '_blank'); return false;">
+                        <img alt="" src="images/portfolio/collision_monitor.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Bank System</h5>
-                              <p>Algorithm Project</p>
-          					   </div>
+                              <h5>Collision Monitor </h5>
+                              <p>Computer Vision / Deep Learning</p>
+                           </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
-
                   </div>
-          		</div> <!-- item end -->
+               </div>
 
-
-
+               <!-- Heart Disease Data Analysis -->
                <div class="columns portfolio-item">
                   <div class="item-wrap">
+                     <a href="https://github.com/pedrolucas802/heart-disease-data-analysis" target="_blank" rel="noopener noreferrer" class="external-project-link" onclick="window.open(this.href, '_blank'); return false;">
+                        <img alt="" src="images/portfolio/hd_data_analysis.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Heart Disease Data Analysis</h5>
+                              <p>Data Analysis / Python</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
 
-                     <a href="#modal-04" title="">
+               <!-- Airflow Domain Analysis -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="https://github.com/pedrolucas802/airflow-domain-analysis" target="_blank" rel="noopener noreferrer" class="external-project-link" onclick="window.open(this.href, '_blank'); return false;">
+                        <img alt="" src="images/portfolio/dns_analysis.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Airflow DNS Analysis</h5>
+                              <p>Data Engineering / Analysis</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <!-- Hand Tracking Mouse -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="https://github.com/pedrolucas802/hand_tracking_mouse" target="_blank" rel="noopener noreferrer" class="external-project-link" onclick="window.open(this.href, '_blank'); return false;">
+                        <img alt="" src="images/portfolio/cv_mouse.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Hand Tracking Mouse</h5>
+                              <p>Computer Vision / OpenCV</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <!-- AI Algorithms -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="https://github.com/pedrolucas802/IA-AV3" target="_blank" rel="noopener noreferrer" class="external-project-link" onclick="window.open(this.href, '_blank'); return false;">
+                        <img alt="" src="images/portfolio/IA-SI.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>AI Algorithms</h5>
+                              <p>Hill Climbing / N-Queens</p>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+
+               <!-- Antifragile -->
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+                     <a href="https://github.com/joao-saraiva/antifragile" target="_blank" rel="noopener noreferrer" class="external-project-link" onclick="window.open(this.href, '_blank'); return false;">
                         <img alt="" src="images/portfolio/antifragile.jpg">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Antifragile</h5>
-                              <p>Game Development</p>
-          					   </div>
+                              <h5>Antifragile</h5>
+                              <p>Game Development / Team Project</p>
+                           </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
-
                   </div>
-          		</div> <!-- item end -->
+               </div>
+
+            </div>
+
+         </div>
 
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/pong.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>“Pong“</h5>
-                              <p>Game Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/mario.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Generic Mario</h5>
-                              <p>Game Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div>  <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-05" title="">
-                            <img alt="" src="images/portfolio/battleship.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Battleship</h5>
-                                    <p>Game Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
+         <!-- Modal Popup --------------------------------------------------------------- -->
 
          <div id="modal-01" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/moneynote.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/moneynote.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>Money Note</h4>
-			      <p>App developed in Kotlin using Android Studio and SQLite(CRUD). App has Login, list of users financial income and outcomes with following graphs.</p>
+            <div class="description-box">
+               <h4>Money Note</h4>
+               <p>App developed in Kotlin using Android Studio and SQLite(CRUD). App has Login, list of users financial
+                  income and outcomes with following graphs.</p>
                <span class="categories"><i class="fa fa-tag"></i>Android, Mobile</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://github.com/pedrolucas802/MoneyNoteApp" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-01 End -->
+         </div>
 
          <div id="modal-02" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/banksystem.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/banksystem.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>Bank System</h4>
-			      <p>Algorithm developed in Java with the idea to simulate a bank system with the following features, user registration, Login, financial transfer, change password and Logout.</p>
+            <div class="description-box">
+               <h4>Bank System</h4>
+               <p>Algorithm developed in Java with the idea to simulate a bank system with the following features, user
+                  registration, Login, financial transfer, change password and Logout.</p>
                <span class="categories"><i class="fa fa-tag"></i>Java, Algorithm</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://github.com/pedrolucas802/BankTransfer_Project" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-02 End -->
+         </div>
 
          <div id="modal-03" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/colorPicker.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/colorPicker.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>Color Picker</h4>
-			      <p>App developed in Kotlin with Android Studio for the purpose of being able to choose a specific color and be able to copy its hexadecimal code.</p>
+            <div class="description-box">
+               <h4>Color Picker</h4>
+               <p>App developed in Kotlin with Android Studio for the purpose of being able to choose a specific color
+                  and be able to copy its hexadecimal code.</p>
                <span class="categories"><i class="fa fa-tag"></i>Android, Mobile</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://github.com/pedrolucas802/ColorPicker" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-03 End -->
+         </div>
 
          <div id="modal-04" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/antifragile.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/antifragile.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>Antifragile</h4>
-			      <p>Game developed in GDScript using the Godot engine in collaboration with college partners for a course. That game has three stages and a final boss.</p>
+            <div class="description-box">
+               <h4>Antifragile</h4>
+               <p>Game developed in GDScript using the Godot engine in collaboration with college partners for a course.
+                  That game has three stages and a final boss.</p>
                <span class="categories"><i class="fa fa-tag"></i>Godot, Games</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://github.com/joao-saraiva/antifragile" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-04 End -->
+         </div>
 
          <div id="modal-05" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/battleship.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/battleship.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>Battleship</h4>
-			      <p>Classic game developed in Java for OOP college class.</p>
+            <div class="description-box">
+               <h4>Battleship</h4>
+               <p>Classic game developed in Java for OOP college class.</p>
                <span class="categories"><i class="fa fa-tag"></i>Java, Games</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://github.com/pedrolucas802/BattleshipGame" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-05 End -->
+         </div>
 
          <div id="modal-06" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/weather.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/weather.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>Weather App</h4>
-			      <p>App developed in dart using Flutter that uses a weather API to get the forecast for any city in the world.</p>
+            <div class="description-box">
+               <h4>Weather App</h4>
+               <p>App developed in dart using Flutter that uses a weather API to get the forecast for any city in the
+                  world.</p>
                <span class="categories"><i class="fa fa-tag"></i>Flutter, Mobile</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://github.com/pedrolucas802/Weather-App" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-06 End -->
+         </div>
 
          <div id="modal-07" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/pong.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/pong.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>Pong Game</h4>
-			      <p>Classic Pong game developed in GDScript with the Godot engine.</p>
+            <div class="description-box">
+               <h4>Pong Game</h4>
+               <p>Classic Pong game developed in GDScript with the Godot engine.</p>
                <span class="categories"><i class="fa fa-tag"></i>Godot, Classic Games</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://www.youtube.com/watch?v=3FrSfiN-Tgc&t=2s" target="_blank">YouTube</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-07 End -->
+         </div>
 
          <div id="modal-08" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/mario.jpg" alt="" />
+            <img class="scale-with-grid" src="images/portfolio/modals/mario.jpg" alt="" />
 
-		      <div class="description-box">
-			      <h4>“Generic Mario“</h4>
-			      <p>Generic Mario or `MarcioBros` is a quick Mario Bros inspired game challenge developed in GDScript with the Godot engine.</p>
+            <div class="description-box">
+               <h4>“Generic Mario“</h4>
+               <p>Generic Mario or `MarcioBros` is a quick Mario Bros inspired game challenge developed in GDScript with
+                  the Godot engine.</p>
                <span class="categories"><i class="fa fa-tag"></i>Godot, Nintendo, Game Dev</span>
-		      </div>
+            </div>
 
             <div class="link-box">
                <a href="https://www.youtube.com/watch?v=2n2XCQUxYt0&t=29s" target="_blank">YouTube</a>
-		         <a class="popup-modal-dismiss">Close</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
 
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <!-- Call-To-Action Section
-   ================================================== -->
-   <section id="call-to-action">
-
-      <div class="row">
-
-         <div class="two columns header-col">
-
-            <h1><span>Get Hosting.</span></h1>
-
          </div>
 
-         <div class="seven columns">
-
-            <h2><span class="lead">Movie Quote</span></h2>
-            <p><span class="lead"> “The greatest teacher, failure is.” </span>
-                <br> <span>- Master Yoda</span>
-            </p>
-
-
-         </div>
-
-         <div class="three columns action">
-
-
-
-         </div>
 
       </div>
 
-   </section> <!-- Call-To-Action Section End-->
+   </section>
 
 
-   <!-- Testimonials Section
-   ================================================== -->
+
+
+   <!-- Testimonials Section  ================================================== -->
    <section id="testimonials">
 
       <div class="text-container">
@@ -617,7 +638,7 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Client Testimonials</span></h1>
+               <h1><span>Quotes</span></h1>
 
             </div>
 
@@ -629,13 +650,11 @@
 
                      <li>
                         <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
+                           <p>“The greatest teacher, failure is.”</p>
+                           <cite>Master Yoda</cite>
                         </blockquote>
-                     </li> <!-- slide ends -->
+                     </li>
+
 
                      <li>
                         <blockquote>
@@ -643,63 +662,64 @@
                            </p>
                            <cite>Psalm 23:1</cite>
                         </blockquote>
-                     </li> <!-- slide ends -->
+                     </li>
 
                   </ul>
 
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">I hope this page helped you get to know a little more of me. In the beginning and down here are couple ways to contact me, feel free to go ahead and e-mail me for anything I might help or that might have interested you.
-                  </p>
+               </div>
 
             </div>
 
          </div>
 
-         <div class="row">
+      </div>
 
-            <div class="eight columns">
+   </section>
 
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
+
+   <!-- Contact Section ================================================== -->
+   <section id="contact">
+
+      <div class="row section-head">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get In Touch.</span></h1>
+
+         </div>
+
+         <div class="ten columns">
+
+            <p class="lead">Thanks for visiting my resume and portfolio. If you would like to discuss software
+               engineering, full-stack development, or computer vision and AI projects, feel free to reach out by email
+               or through my social profiles.
+            </p>
+
+         </div>
+
+      </div>
+
+      <div class="row">
+
+         <div class="eight columns">
+
+            <!-- form -->
+            <form action="" method="post" id="contactForm" name="contactForm">
+               <fieldset>
 
                   <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                     <label for="contactName">Name <span class="required">*</span></label>
+                     <input type="text" value="" size="35" id="contactName" name="contactName">
                   </div>
 
                   <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                     <label for="contactEmail">Email <span class="required">*</span></label>
+                     <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
                   </div>
 
                   <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                     <label for="contactSubject">Subject</label>
+                     <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
                   </div>
 
                   <div>
@@ -714,69 +734,41 @@
                      </span>
                   </div>
 
-					</fieldset>
-				   </form> <!-- Form End -->
+               </fieldset>
+            </form>
 
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
+            <div id="message-warning"> Error boy</div>
+            <div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+            </div>
+
+         </div>
+
+
+         <aside class="four columns footer-widgets">
+
+            <div class="widget widget_contact">
+
+               <h4>Phone, E-mail and Instagram</h4>
+               <p class="address">
+                  Pedro L. Barreto<br>
+                  <span>+55 (85) 99819-3804</span>
+                  <br><span>plsb802@gmail.com</span>
+                  <br><span>@pedrolucasb8</span>
+                  <br><br><br><span>!THANK YOU SO MUCH!</span>
+
+               </p>
 
             </div>
 
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Phone, E-mail and Instagram</h4>
-					   <p class="address">
-						   Pedro L. Barreto<br>
-						<span>(85) 9981-93804</span>
-                           <br><span>plsb802@gmail.com</span>
-                             <br><span>@pedrolucasb8</span>
-                           <br><br><br><span>!THANK YOU SO MUCH!</span>
-
-                       </p>
-
-				   </div>
-
-<!--               <div class="widget widget_tweets">-->
-
-<!--                  <h4 class="widget-title">Latest Tweets</h4>-->
-
-<!--                  <ul id="twitter">-->
-<!--                     <li>-->
-<!--                        <span>-->
-<!--                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
-<!--                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum-->
-<!--                        <a href="#">http://t.co/CGIrdxIlI3</a>-->
-<!--                        </span>-->
-<!--                        <b><a href="#">2 Days Ago</a></b>-->
-<!--                     </li>-->
-<!--                     <li>-->
-<!--                        <span>-->
-<!--                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,-->
-<!--                        eaque ipsa quae ab illo inventore veritatis et quasi-->
-<!--                        <a href="#">http://t.co/CGIrdxIlI3</a>-->
-<!--                        </span>-->
-<!--                        <b><a href="#">3 Days Ago</a></b>-->
-<!--                     </li>-->
-<!--                  </ul>-->
-
-<!--		         </div>-->
-
-            </aside>
+         </aside>
 
       </div>
 
-   </section> <!-- Contact Section End-->
+   </section>
 
 
-   <!-- footer
-   ================================================== -->
+   <!-- footer ================================================== -->
    <footer>
 
       <div class="row">
@@ -784,37 +776,62 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-github"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+               <li><a href="mailto:plsb802@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/pedro-barreto-4b13541a8/" target="_blank"><i
+                        class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/pedrolucasb8/" target="_blank"><i class="fa fa-instagram"></i></a>
+               </li>
+               <li><a href="https://github.com/pedrolucas802" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCB7WueZ0OQFBQQejtLz2duQ" target="_blank"><i
+                        class="fa fa-youtube"></i></a></li>
             </ul>
 
             <ul class="copyright">
-               <li>&copy; Copyright 2022 PBTECH</li>
-               <li>Design by <a href="https://www.instagram.com/pedrolucasb8/" title="Pedro Barreto" target="_blank">Pedro Barreto</a></li>
+               <li>&copy; Copyright 2026 Pedro Barreto</li>
+               <li>Design by <a href="https://www.instagram.com/pedrolucasb8/" title="Pedro Barreto"
+                     target="_blank">Pedro Barreto</a></li>
             </ul>
 
          </div>
 
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+         </div>
 
       </div>
 
-   </footer> <!-- Footer End-->
+   </footer>
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <!-- Java Script  ================================================== -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+
+   <script>
+      $(document).ready(function () {
+         $('#about-toggle').on('click', function (e) {
+            e.preventDefault();
+            const more = $('#about-more');
+            const button = $(this);
+
+            if (more.is(':visible')) {
+               more.slideUp(250);
+               button.text('Read More');
+            } else {
+               more.slideDown(250);
+               button.text('Read Less');
+            }
+         });
+
+         $('.external-project-link').on('click', function (e) {
+            e.stopPropagation();
+         });
+      });
+   </script>
 
 </body>
 
