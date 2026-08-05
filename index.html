@@ -53,6 +53,11 @@
    <!-- Header ================================================== -->
    <header id="home">
 
+      <video class="header-video" autoplay muted loop playsinline poster="images/Pedro/blueTech-poster.jpg">
+         <source src="images/Pedro/blueTech.webm" type="video/webm">
+         <source src="images/Pedro/blueTech.mp4" type="video/mp4">
+      </video>
+
       <nav id="nav-wrap">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -72,20 +77,29 @@
          <div class="banner-text">
             <h1 class="responsive-headline">Pedro L. Barreto</h1>
 
-            <h3><span>Full-Stack Software Developer</span> with experience across <span>cybersecurity</span>,
+            <h2><span>Full-Stack Software Developer</span> with experience across <span>cybersecurity</span>,
                <span>education</span>, and <span>financial systems</span>, currently growing into <span>computer
-                  vision</span> and <span>artificial intelligence</span>. <a class="smoothscroll" href="#about">Scroll
-                  Down</a>
-            </h3>
+                  vision</span> and <span>artificial intelligence</span>.
+            </h2>
+
+            <p class="banner-actions">
+               <a href="./Resume 2026.1 - Pedro Barreto.pdf" class="button"
+                  download="Resume 2026.1 - Pedro Barreto.pdf"><i class="fa fa-download"></i>Download CV</a>
+               <a class="button smoothscroll" href="#portfolio"><i class="fa fa-code"></i>View Projects</a>
+            </p>
 
             <hr />
             <ul class="social">
-               <li><a href="mailto:plsb802@gmail.com"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/pedro-barreto-4b13541a8/"><i class="fa fa-linkedin"></i></a>
+               <li><a href="mailto:plsb802@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/pedro-barreto-4b13541a8/" target="_blank"
+                     rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
                </li>
-               <li><a href="https://www.instagram.com/pedrolucasb8/"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://github.com/pedrolucas802"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.youtube.com/channel/UCB7WueZ0OQFBQQejtLz2duQ"><i class="fa fa-youtube"></i></a>
+               <li><a href="https://www.instagram.com/pedrolucasb8/" target="_blank" rel="noopener noreferrer"
+                     aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://github.com/pedrolucas802" target="_blank" rel="noopener noreferrer"
+                     aria-label="GitHub"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCB7WueZ0OQFBQQejtLz2duQ" target="_blank"
+                     rel="noopener noreferrer" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
                </li>
             </ul>
          </div>
@@ -342,25 +356,81 @@
                and applied AI engineering.
             </p>
 
-            <div class="bars">
+            <div class="skill-groups">
 
-               <ul class="skills">
-                  <li><span class="bar-expand photoshop"></span><em>Backend Engineering: Java, Kotlin, Quarkus, REST
-                        APIs, Python</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>AI / ML: PyTorch, OpenCV, FastAPI, Streamlit,
-                        Computer Vision</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Frontend: Angular, Vue.js, Thymeleaf, jQuery,
-                        HTML, CSS, JavaScript</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Databases: Oracle, PostgreSQL, MySQL, SQL,
-                        PL/SQL</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Infrastructure: Docker, Nginx, Kafka,
-                        Microservices</em></li>
-                  <li><span class="bar-expand wordpress"></span><em>Practices: Scrum, Full-Stack Development, Enterprise
-                        Systems</em></li>
-                  <li><span class="bar-expand jquery"></span><em>English (Native/Fluent)</em></li>
-                  <li><span class="bar-expand jquery"></span><em>Portuguese (Native/Fluent)</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Spanish (Intermediate)</em></li>
-               </ul>
+               <div class="skill-group">
+                  <h4>Backend Engineering</h4>
+                  <div class="chip-row">
+                     <span class="chip">Java</span>
+                     <span class="chip">Kotlin</span>
+                     <span class="chip">Quarkus</span>
+                     <span class="chip">REST APIs</span>
+                     <span class="chip">Python</span>
+                  </div>
+               </div>
+
+               <div class="skill-group">
+                  <h4>AI / ML</h4>
+                  <div class="chip-row">
+                     <span class="chip">PyTorch</span>
+                     <span class="chip">OpenCV</span>
+                     <span class="chip">FastAPI</span>
+                     <span class="chip">Streamlit</span>
+                     <span class="chip">Computer Vision</span>
+                  </div>
+               </div>
+
+               <div class="skill-group">
+                  <h4>Frontend</h4>
+                  <div class="chip-row">
+                     <span class="chip">Angular</span>
+                     <span class="chip">Vue.js</span>
+                     <span class="chip">Thymeleaf</span>
+                     <span class="chip">jQuery</span>
+                     <span class="chip">HTML</span>
+                     <span class="chip">CSS</span>
+                     <span class="chip">JavaScript</span>
+                  </div>
+               </div>
+
+               <div class="skill-group">
+                  <h4>Databases</h4>
+                  <div class="chip-row">
+                     <span class="chip">Oracle</span>
+                     <span class="chip">PostgreSQL</span>
+                     <span class="chip">MySQL</span>
+                     <span class="chip">SQL</span>
+                     <span class="chip">PL/SQL</span>
+                  </div>
+               </div>
+
+               <div class="skill-group">
+                  <h4>Infrastructure</h4>
+                  <div class="chip-row">
+                     <span class="chip">Docker</span>
+                     <span class="chip">Nginx</span>
+                     <span class="chip">Kafka</span>
+                     <span class="chip">Microservices</span>
+                  </div>
+               </div>
+
+               <div class="skill-group">
+                  <h4>Practices</h4>
+                  <div class="chip-row">
+                     <span class="chip">Scrum</span>
+                     <span class="chip">Full-Stack Development</span>
+                     <span class="chip">Enterprise Systems</span>
+                  </div>
+               </div>
+
+               <div class="skill-group">
+                  <h4>Languages</h4>
+                  <div class="chip-row">
+                     <span class="chip">English (Native/Fluent)</span>
+                     <span class="chip">Portuguese (Native/Fluent)</span>
+                     <span class="chip">Spanish (Intermediate)</span>
+                  </div>
+               </div>
 
             </div>
 
@@ -378,25 +448,31 @@
 
          <div class="nine columns main-col">
 
-            <div class="row item">
+            <div class="cert-grid">
 
-               <div class="twelve columns">
-
-                  <h3>AWS Certified Cloud Practitioner</h3>
-                  <p class="info">Amazon Web Services (AWS) <span>&bull;</span> <em class="date">Issued Jun 2026
-                        &middot; Expires Jun 2029</em></p>
-
+               <div class="cert-card">
+                  <div class="cert-badge cert-badge-aws" aria-hidden="true">
+                     <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                        <path
+                           d="M4 15a4 4 0 0 1 .5-8 5 5 0 0 1 9.6-1.4A4.5 4.5 0 0 1 19.5 9 3.5 3.5 0 0 1 19 16H5.5A1.5 1.5 0 0 1 4 15Z"
+                           fill="#fff" />
+                     </svg>
+                  </div>
+                  <div class="cert-body">
+                     <h3>AWS Certified Cloud Practitioner</h3>
+                     <p class="info">Amazon Web Services (AWS) <span>&bull;</span> <em class="date">Issued Jun 2026
+                           &middot; Expires Jun 2029</em></p>
+                  </div>
                </div>
 
-            </div>
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Python</h3>
-                  <p class="info">FIAP <span>&bull;</span> <em class="date">Issued Apr 2023</em></p>
-
+               <div class="cert-card">
+                  <div class="cert-badge cert-badge-py" aria-hidden="true">
+                     <span>PY</span>
+                  </div>
+                  <div class="cert-body">
+                     <h3>Python</h3>
+                     <p class="info">FIAP <span>&bull;</span> <em class="date">Issued Apr 2023</em></p>
+                  </div>
                </div>
 
             </div>
@@ -778,14 +854,16 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="mailto:plsb802@gmail.com"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/pedro-barreto-4b13541a8/" target="_blank"><i
-                        class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/pedrolucasb8/" target="_blank"><i class="fa fa-instagram"></i></a>
+               <li><a href="mailto:plsb802@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/pedro-barreto-4b13541a8/" target="_blank"
+                     rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/pedrolucasb8/" target="_blank" rel="noopener noreferrer"
+                     aria-label="Instagram"><i class="fa fa-instagram"></i></a>
                </li>
-               <li><a href="https://github.com/pedrolucas802" target="_blank"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.youtube.com/channel/UCB7WueZ0OQFBQQejtLz2duQ" target="_blank"><i
-                        class="fa fa-youtube"></i></a></li>
+               <li><a href="https://github.com/pedrolucas802" target="_blank" rel="noopener noreferrer"
+                     aria-label="GitHub"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCB7WueZ0OQFBQQejtLz2duQ" target="_blank"
+                     rel="noopener noreferrer" aria-label="YouTube"><i class="fa fa-youtube"></i></a></li>
             </ul>
 
             <ul class="copyright">
