@@ -1,0 +1,116 @@
+<svg viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="fo-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141821"/>
+      <stop offset="100%" stop-color="#0c0e13"/>
+    </linearGradient>
+    <linearGradient id="fo-box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2433"/>
+      <stop offset="100%" stop-color="#151b27"/>
+    </linearGradient>
+    <marker id="fo-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5b8fc9"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="480" fill="url(#fo-bg)"/>
+
+  <text x="480" y="36" text-anchor="middle" fill="#f2f4f8" font-size="25" font-weight="700">FactoryOps</text>
+  <text x="480" y="57" text-anchor="middle" fill="#7f97b8" font-size="12.5" letter-spacing="1.6">INDUSTRIAL OPERATIONS DATA PLATFORM</text>
+
+  <!-- ===== Row 1: sources ===== -->
+  <rect x="180" y="76" width="260" height="54" rx="8" fill="url(#fo-box)" stroke="#2B6CB0" stroke-width="1.5"/>
+  <g transform="translate(210,103)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#20BEFF"/>
+    <text y="6" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">K</text>
+  </g>
+  <text x="236" y="100" fill="#e7edf5" font-size="14" font-weight="600">Kaggle Datasets</text>
+  <text x="236" y="117" fill="#8ba3c4" font-size="11">AI4I 2020 &#183; UCI SECOM</text>
+
+  <rect x="520" y="76" width="260" height="54" rx="8" fill="url(#fo-box)" stroke="#2B6CB0" stroke-width="1.5"/>
+  <g transform="translate(550,103)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#3776AB"/>
+    <text y="5" text-anchor="middle" fill="#FFD43B" font-size="11" font-weight="700">Py</text>
+  </g>
+  <text x="576" y="100" fill="#e7edf5" font-size="14" font-weight="600">Synthetic Generator</text>
+  <text x="576" y="117" fill="#8ba3c4" font-size="11">simulated factory sensors</text>
+
+  <path d="M310,130 V141" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M650,130 V141" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M310,141 H650" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M480,141 V152" fill="none" stroke="#5b8fc9" stroke-width="1.5" marker-end="url(#fo-arrow)"/>
+
+  <!-- ===== Row 2: Airflow ===== -->
+  <rect x="330" y="152" width="300" height="54" rx="8" fill="url(#fo-box)" stroke="#1E4E8C" stroke-width="2"/>
+  <g transform="translate(360,179)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#017CEE"/>
+    <g fill="#fff">
+      <path d="M0,-2.6 Q7,-9.2 9,-3 Q4,-1.2 0,-2.6 Z"/>
+      <path d="M0,-2.6 Q7,-9.2 9,-3 Q4,-1.2 0,-2.6 Z" transform="rotate(120)"/>
+      <path d="M0,-2.6 Q7,-9.2 9,-3 Q4,-1.2 0,-2.6 Z" transform="rotate(240)"/>
+    </g>
+    <circle r="1.9" fill="#017CEE"/>
+  </g>
+  <text x="386" y="176" fill="#f2f4f8" font-size="15" font-weight="700">Airflow DAGs</text>
+  <text x="386" y="193" fill="#8ba3c4" font-size="11">ingest &#183; transform &#183; validate</text>
+
+  <path d="M480,206 V216" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M190,216 H770" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M190,216 V228" fill="none" stroke="#5b8fc9" stroke-width="1.5" marker-end="url(#fo-arrow)"/>
+  <path d="M480,216 V228" fill="none" stroke="#5b8fc9" stroke-width="1.5" marker-end="url(#fo-arrow)"/>
+  <path d="M770,216 V228" fill="none" stroke="#5b8fc9" stroke-width="1.5" marker-end="url(#fo-arrow)"/>
+
+  <!-- ===== Row 3: storage ===== -->
+  <rect x="60" y="228" width="260" height="60" rx="8" fill="url(#fo-box)" stroke="#2B6CB0" stroke-width="1.5"/>
+  <g transform="translate(90,258)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#C72E29"/>
+    <text y="6" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">M</text>
+  </g>
+  <text x="116" y="255" fill="#e7edf5" font-size="13.5" font-weight="600">MinIO</text>
+  <text x="116" y="272" fill="#8ba3c4" font-size="10.5">raw / bronze / silver / gold</text>
+
+  <rect x="350" y="228" width="260" height="60" rx="8" fill="url(#fo-box)" stroke="#2B6CB0" stroke-width="1.5"/>
+  <g transform="translate(380,258)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#336791"/>
+    <text y="4.5" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">PG</text>
+  </g>
+  <text x="406" y="255" fill="#e7edf5" font-size="13.5" font-weight="600">PostgreSQL</text>
+  <text x="406" y="272" fill="#8ba3c4" font-size="10.5">curated tables</text>
+
+  <rect x="640" y="228" width="260" height="60" rx="8" fill="url(#fo-box)" stroke="#2B6CB0" stroke-width="1.5"/>
+  <g transform="translate(670,258)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#4053D6"/>
+    <path d="M-6.5,-4.6 A6.5,2.7 0 0 1 6.5,-4.6 V4.6 A6.5,2.7 0 0 1 -6.5,4.6 Z" fill="#fff"/>
+    <path d="M-6.5,-4.6 A6.5,2.7 0 0 0 6.5,-4.6" fill="none" stroke="#4053D6" stroke-width="1.4"/>
+  </g>
+  <text x="696" y="255" fill="#e7edf5" font-size="13.5" font-weight="600">DynamoDB Local</text>
+  <text x="696" y="272" fill="#8ba3c4" font-size="10.5">alerts / state</text>
+
+  <path d="M190,288 V299" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M480,288 V299" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M770,288 V299" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M190,299 H770" fill="none" stroke="#5b8fc9" stroke-width="1.5"/>
+  <path d="M480,299 V310" fill="none" stroke="#5b8fc9" stroke-width="1.5" marker-end="url(#fo-arrow)"/>
+
+  <!-- ===== Row 4: DuckDB ===== -->
+  <rect x="330" y="310" width="300" height="54" rx="8" fill="url(#fo-box)" stroke="#1E4E8C" stroke-width="2"/>
+  <g transform="translate(360,337)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#FFF000"/>
+    <circle cx="-1.5" cy="-1" r="5.6" fill="#1a1a1a"/>
+    <path d="M3.6,-2.4 L10,0 L3.6,2.4 Z" fill="#1a1a1a"/>
+    <circle cx="0.4" cy="-2.7" r="1.35" fill="#FFF000"/>
+  </g>
+  <text x="386" y="334" fill="#f2f4f8" font-size="15" font-weight="700">DuckDB Analytics</text>
+  <text x="386" y="351" fill="#8ba3c4" font-size="11">OEE &#183; downtime &#183; quality &#183; energy</text>
+
+  <path d="M480,364 V386" fill="none" stroke="#5b8fc9" stroke-width="1.5" marker-end="url(#fo-arrow)"/>
+
+  <!-- ===== Row 5: dashboard ===== -->
+  <rect x="310" y="386" width="340" height="54" rx="8" fill="#2B6CB0" fill-opacity="0.18" stroke="#2B6CB0" stroke-width="2"/>
+  <g transform="translate(340,413)">
+    <rect x="-14" y="-14" width="28" height="28" rx="7" fill="#FF4B4B"/>
+    <text y="6" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">S</text>
+  </g>
+  <text x="366" y="410" fill="#f2f4f8" font-size="15" font-weight="700">Streamlit Dashboard</text>
+  <text x="366" y="427" fill="#9db6d6" font-size="11">machine health &#183; efficiency &#183; anomalies</text>
+</svg>
