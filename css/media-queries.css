@@ -254,7 +254,8 @@
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   /* spacing is handled by the flex `gap` on #portfolio-wrapper */
+   #portfolio-wrapper .columns { margin-bottom: 0; }
    .popup-modal {	max-width: 85%; }
 
 

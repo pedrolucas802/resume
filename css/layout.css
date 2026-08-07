@@ -458,17 +458,43 @@ ul#nav li.current a { color: #6F8FAF; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+/* Responsive flex grid: replaces the bgrid-thirds float grid so rows with a
+   non-multiple-of-3 item count (e.g. a trailing 1 or 2 items) stay centered
+   instead of hanging left with empty space beside them. Flex naturally
+   reflows to fewer columns on narrow viewports too, so no extra
+   s-bgrid-thirds breakpoint is needed for this element. */
+#portfolio-wrapper:before,
+#portfolio-wrapper:after { content: none; }
+#portfolio-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 28px;
+}
+#portfolio-wrapper .columns {
+   float: none;
+   width: auto;
+   padding: 0;
+   margin-bottom: 0;
+   flex: 0 1 300px;
+   max-width: 300px;
+}
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
+   border-radius: 10px;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+.portfolio-item:hover .item-wrap {
+   box-shadow: 0 12px 28px rgba(43, 108, 176, 0.28);
+   transform: translateY(-4px);
 }
 .portfolio-item .item-wrap a {
    display: block;
@@ -519,10 +545,11 @@ ul#nav li.current a { color: #6F8FAF; }
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
-    width:  300px;
-    height: 150px;
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 1;
     object-fit: cover;
-    border: 2px solid black;
     vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
