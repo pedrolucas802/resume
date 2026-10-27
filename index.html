@@ -53,10 +53,7 @@
    <!-- Header ================================================== -->
    <header id="home">
 
-      <video class="header-video" autoplay muted loop playsinline poster="images/Pedro/blueTech-poster.jpg">
-         <source src="images/Pedro/blueTech.webm" type="video/webm">
-         <source src="images/Pedro/blueTech.mp4" type="video/mp4">
-      </video>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
 
       <nav id="nav-wrap">
 
@@ -949,6 +946,8 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+   <script src="js/hero-animation.js"></script>
 
    <script>
       $(document).ready(function () {
