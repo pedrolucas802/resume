@@ -33,14 +33,11 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/Pedro/blueTech-poster.jpg) no-repeat top center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
+   background: #000;
    text-align: center;
    overflow: hidden;
 }
 
-/* header background video */
 header .header-video {
    position: absolute;
    top: 0;
@@ -50,14 +47,25 @@ header .header-video {
    object-fit: cover;
    z-index: 0;
 }
+header:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, .62);
+   z-index: 1;
+   pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+   header .header-video { display: none; }
+}
 header .banner {
    position: relative;
    z-index: 2;
 }
 header .scrolldown a { z-index: 2; }
-@media (prefers-reduced-motion: reduce) {
-   header .header-video { display: none; }
-}
 
 /* vertically center banner section */
 header:before {
