@@ -38,29 +38,17 @@ header {
    overflow: hidden;
 }
 
-header .header-video {
+header #hero-canvas {
    position: absolute;
    top: 0;
    left: 0;
    width: 100%;
    height: 100%;
-   object-fit: cover;
-   z-index: 0;
-}
-header:after {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: rgba(0, 0, 0, .62);
    z-index: 1;
    pointer-events: none;
+   display: none;
 }
-@media (prefers-reduced-motion: reduce) {
-   header .header-video { display: none; }
-}
+header.has-webgl #hero-canvas { display: block; }
 header .banner {
    position: relative;
    z-index: 2;
